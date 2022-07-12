@@ -1,16 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
     </head>
     <body>
-        <div>
-            <img src="https://fontmeme.com/images/instagram-new-logo.png" width="100px">
-            <input type="search" value="검색">
+        <div id="top">
+            <img src="https://fontmeme.com/images/instagram-new-logo.png" width="100px" id="top_img">
+            <input type="search" value="검색" id="top_input">
+            <div>
+                <i class="fal fa-home-alt"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
         <div id="profile">
-        <img src="image/profile.jpg" width="50px">
-            <div>
-            <h2>yes_sp<br/></h2>
+            <div id="profile_pic">
+                <img src="image/profile.jpg" width="50px" class="circle_pic">
+            </div>
+            <div id="profile_info">
+            <div id="id">
+                yes_sp
+                <i class="far fa-cog"></i>
+            </div>
             <button>프로필 편집</button>
             </div>
         </div>
@@ -25,49 +37,64 @@
                 <a href="https://github.com/SHINYEDDONG">Git페이지</a>
             </p>
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-            <div>
-                <img src="image/hl 1.jpg" height="35px">
+            <div class="highlight_pic">
+                <img src="image/hl 1.jpg" height="35px" class="circle_pic">
             </div>
-            <div>
+            <div id="imo">
                 😎
             </div>
             </div>
             <div class="highlight">
-            <div>
-            <img src="image/hl 2.jpg" height="35px">
+            <div class="highlight_pic">
+            <img src="image/hl 2.jpg" height="35px" class="circle_pic">
             </div>
-            <div>
+            <div id="imo">
                 😘
             </div>
+            <div></div>
             </div>
         </div>
-        <div>
-            <div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br>
                 10
             </div>
-            <div>
+            <div class="stat">
                 팔로워<br>
                 10
             </div>
-            <div>
+            <div class="stat">
                 팔로우<br>
                 10
             </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
+        <div id="sub_icons">
+            <div class="selected">
+               <i class="fas fa-border-all"></i>
+            </div>    
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="far fa-play-circle"></i></div>
+            <div><i class="far fa-bookmark"></i></div>
+            <div><i class="far fa-user-tag"></i></div>
+            </div>
         <div>
-        <img src="image/thumnail/1.jpg" width="32%"/>
-        <img src="image/thumnail/2.jpg" width="32%"/>
-        <img src="image/thumnail/3.jpg" width="32%"/>
-        <img src="image/thumnail/4.jpg" width="32%"/>
-        <img src="image/thumnail/5.jpg" width="32%"/>
-        <img src="image/thumnail/6.jpg" width="32%"/>
-        <img src="image/thumnail/7.jpg" width="32%"/>
-        <img src="image/thumnail/8.jpg" width="32%"/>
-        <img src="image/thumnail/9.jpg" width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="image/thumnail/1.jpg">
+                <img src="image/thumnail/2.jpg">
+                <img src="image/thumnail/3.jpg">
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumnail/4.jpg">
+                <img src="image/thumnail/5.jpg">
+                <img src="image/thumnail/6.jpg">
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumnail/7.jpg">
+                <img src="image/thumnail/8.jpg">
+                <img src="image/thumnail/9.jpg">
+            </div>
         </div>
     </body>
 </html>
