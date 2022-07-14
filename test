@@ -16,3 +16,8 @@
         </div>
     </body>
 </html>
+push 방법
+
+git add .
+git commit -m "message"
+git push origin master
